@@ -5,4 +5,4 @@ copy-item -path \\sccm_server\sms_site\client\* -destination c:\client
 
 cd c:\client
 
-.\ccmsetup.exe /mp:domain.local smssitecode=yoursitecode
+.\ccmsetup.exe /mp:sccmserver.domain.local smssitecode=yoursitecode
