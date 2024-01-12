@@ -1,0 +1,7 @@
+new-item -itemtype directory -path c:\client
+
+copy-item -path \\sccm_server\sms_site\client\* -destination c:\client
+
+cd c:\client
+
+.\ccmsetup.exe /mp:domain.local smssitecode=yoursitecode
