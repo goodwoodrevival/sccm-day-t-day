@@ -1,0 +1,8 @@
+#Title:device_troubleshooting_script
+#Instruction: download https://aka.ms/getTSS then extract the file to c:\temp
+#How to run the script
+  c:\temp>
+  c:\temp>set-executionpolicy remotesigned -scope process -force
+  c:\temp>
+  c:\temp>.\TSSv2.ps1 -collectlog DND_SetupReport
+#Once the process is finished, all data is collected and zipped into a single file, a windows explorer window will pop-up with the zip file.  
